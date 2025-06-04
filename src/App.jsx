@@ -74,10 +74,10 @@ const [itemCounter, setCounter] = useState(0);
         
       </nav>
 
-      <div class="relative">
+      {/* <div class="relative">
   <img src="/src/assets/my_banner.png" class="w-full h-[300px] object-cover rounded-lg shadow-lg transition-all hover:opacity-80" alt="Banner Image"/>
   
-</div>
+</div> */}
 
  {isVisible && 
  <div className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
