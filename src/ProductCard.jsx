@@ -29,8 +29,7 @@ function ProductCard({product,addItem,cartitems}){
          </span>
        )}</p>
        <p className="text-2xl flex-grow">Price: ${product.price}</p>
-       <div className="relative my-16 ">
-        <button className=" absolute bottom-0 left-0  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300  text-white font-medium py-3 rounded-lg transition-colors"
+        <button className="w-full mt-auto bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300  text-white font-medium py-3 rounded-lg transition-colors"
           
           onClick={() => {
             
@@ -47,7 +46,6 @@ function ProductCard({product,addItem,cartitems}){
         >
           Add to Cart
         </button>
-        </div>
     </div>
     
 </div>

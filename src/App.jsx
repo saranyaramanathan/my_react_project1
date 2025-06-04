@@ -75,7 +75,7 @@ const [itemCounter, setCounter] = useState(0);
       </nav>
 
       <div class="relative">
-  <img src="/src/assets/banner.png" class="w-full h-[280px] object-cover rounded-lg shadow-lg transition-all hover:opacity-80" alt="Banner Image"/>
+  <img src="/src/assets/banner.png" class="w-full h-[300px] object-cover rounded-lg shadow-lg transition-all hover:opacity-80" alt="Banner Image"/>
   
 </div>
 
