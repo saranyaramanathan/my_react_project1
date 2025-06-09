@@ -30,7 +30,7 @@ function ProductCard({product,addItem,cartitems}){
           )}</p>
         <p className="text-2xl flex-grow">Price: ${product.price}</p>
         {/* <button className="w-full mt-auto bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300  text-white font-medium py-3 rounded-lg transition-colors" */}
-        <div class=" pb-4 pt-0 mt-2">
+        <div class=" pb-4 pt-0 mt-auto">
           <button class="rounded-md bg-blue-700 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button"
             onClick={() => {
 
